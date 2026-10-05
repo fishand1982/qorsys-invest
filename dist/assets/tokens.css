@@ -1,0 +1,240 @@
+/* Canonical v3.1 generated from canon/tokens.json; do not edit directly */
+:root {
+  --ds-brand-900: #08372F;
+  --ds-brand-800: #104D40;
+  --ds-brand-950: #052A24;
+  --ds-coral-500: #FD7A64;
+  --ds-coral-200: #FFA593;
+  --ds-pine-50: #E9F2EF;
+  --ds-neutral-0: #FFFFFF;
+  --ds-neutral-50: #FCFDFB;
+  --ds-neutral-100: #F5F7F4;
+  --ds-neutral-200: #E8EEF1;
+  --ds-neutral-300: #C9D3D0;
+  --ds-neutral-500: #A7B0B2; /* atomic-library */
+  --ds-neutral-750: #4B5961;
+  --ds-neutral-800: #2E3A3F; /* atomic-library */
+  --ds-neutral-1000: #172825; /* atomic-library */
+  --ds-night-900: #0D2723;
+  --ds-night-800: #14342E;
+  --ds-night-700: #1D433B;
+  --ds-night-500: #B7CEC6;
+  --ds-focus-700: #A24F43;
+  --ds-danger-700: #B13F3D;
+  --ds-danger-100: #FBECEC;
+  --ds-success-700: #23664C;
+  --ds-success-100: #E5F3EC;
+  --ds-warning-700: #80551B;
+  --ds-warning-100: #FFF2DA;
+  --ds-space-0: 0rem; /* atomic-library */
+  --ds-space-1: 0.25rem; /* atomic-library */
+  --ds-space-2: 0.5rem;
+  --ds-space-3: 0.75rem; /* atomic-library */
+  --ds-space-4: 1rem;
+  --ds-space-5: 1.25rem; /* atomic-library */
+  --ds-space-6: 1.5rem;
+  --ds-space-8: 2rem; /* atomic-library */
+  --ds-space-12: 3rem; /* atomic-library */
+  --ds-space-16: 4rem;
+  --ds-space-24: 6rem; /* atomic-library */
+  --ds-radius-sm: 0.375rem; /* atomic-library */
+  --ds-radius-md: 0.625rem;
+  --ds-radius-card: 1rem;
+  --ds-radius-modal: 1.375rem;
+  --ds-radius-round: 999rem;
+  --ds-breakpoint-mobile: 30rem; /* atomic-library */
+  --ds-breakpoint-tablet: 47.9rem; /* atomic-library */
+  --ds-breakpoint-desktop: 66rem; /* atomic-library */
+  --ds-font-editorial: Fraunces, Georgia, Cambria, serif;
+  --ds-font-ui: Inter, system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --ds-font-mono: IBM Plex Mono, ui-monospace, SFMono-Regular, Consolas, monospace;
+  --ds-type-xs: 0.78rem;
+  --ds-type-sm: 0.875rem;
+  --ds-type-md: 1rem;
+  --ds-type-lg: 1.25rem;
+  --ds-type-xl: 1.75rem;
+  --ds-type-2xl: 2.5rem;
+  --ds-type-display: clamp(2.65rem,5.7vw,5.65rem);
+  --ds-width-readable: 44rem;
+  --ds-width-content: 86rem;
+  --ds-gutter: clamp(1rem,3.4vw,3.5rem);
+  --ds-duration-instant: 100ms;
+  --ds-duration-fast: 160ms;
+  --ds-duration-base: 240ms;
+  --ds-duration-slow: 360ms;
+  --ds-duration-slower: 500ms; /* atomic-library */
+  --ds-ease-standard: cubic-bezier(.2,0,0,1);
+  --ds-ease-out: cubic-bezier(0,0,.2,1); /* atomic-library */
+  --ds-ease-in: cubic-bezier(.4,0,1,1); /* atomic-library */
+  --ds-ease-emphasized: cubic-bezier(.2,0,0,1.2); /* atomic-library */
+  --ds-shadow-soft: 0 10px 32px rgba(4,30,23,.09);
+  --ds-shadow-elevated: 0 22px 68px rgba(4,30,23,.15);
+  --ds-shadow-modal: 0 40px 120px rgba(4,30,23,.26);
+  --ds-border-thin: 1px;
+  --ds-border-focus-width: 3px;
+  --ds-control-comfort: 2.9rem;
+  --ds-control-compact: 2.45rem;
+  --ds-section-gap: clamp(3rem,6vw,6rem);
+  --ds-button-shift: -0.0625rem;
+  --ds-focus-offset-value: 0.25rem;
+  --ds-shadow-text-on-image: 0 1px 4px rgba(5,42,36,.42);
+  --ds-base-type-display-sm: clamp(2.3rem,4.5vw,4.5rem);
+  --ds-base-type-slide-title: clamp(2.2rem,5vw,5rem);
+  --ds-base-type-slide-body: 1.1rem;
+  --ds-base-type-slide-small: 0.8rem;
+  --ds-base-type-slide-label: 0.7rem;
+  --ds-base-width-heading: 60rem;
+  --ds-base-width-excerpt: 32rem;
+  --ds-base-width-slide: 75rem;
+  --ds-base-letter-tight-sm: -0.025em;
+  --ds-base-letter-tight-md: -0.045em;
+  --ds-base-letter-tight-lg: -0.05em;
+  --ds-base-letter-caption: 0.13em;
+  --ds-base-letter-eyebrow: 0.18em;
+  --ds-base-letter-hero-caption: 0.2em;
+  --ds-base-letter-small: 0.08em;
+  --ds-base-letter-tiny: 0.06em;
+  --ds-base-logo-width: 8rem;
+  --ds-base-logo-height: 2rem;
+  --ds-base-logo-crm-width: 8.5rem;
+  --ds-base-header-height: 4.6rem;
+  --ds-base-hero-min-height: 45rem;
+  --ds-base-hero-viewport-height: 85svh;
+  --ds-base-panel-min-height: 18rem;
+  --ds-base-crm-min-height: 35rem;
+  --ds-base-crm-sidebar-width: 13rem;
+  --ds-base-photo-min-height: 13rem;
+  --ds-base-view-mini-height: 7rem;
+  --ds-base-pattern-visual-height: 11rem;
+  --ds-base-icon-small: 1.1rem;
+  --ds-base-icon-medium: 1.5rem;
+  --ds-base-icon-large: 2rem;
+  --ds-base-icon-xlarge: 2.75rem;
+  --ds-base-icon-section-size: 3rem;
+  --ds-base-slide-padding: 6%;
+  --ds-base-slide-footer-padding: 3%;
+  --ds-base-hero-image-position: 62%;
+  --ds-base-radius-circle: 50%;
+  --ds-bg-page: var(--ds-neutral-50);
+  --ds-bg-surface: var(--ds-neutral-0);
+  --ds-bg-subtle: var(--ds-neutral-100);
+  --ds-bg-contrast: var(--ds-brand-900);
+  --ds-bg-sidebar: var(--ds-brand-900);
+  --ds-text-primary: var(--ds-brand-900);
+  --ds-text-secondary: var(--ds-neutral-750);
+  --ds-text-inverse: var(--ds-neutral-0);
+  --ds-text-muted: var(--ds-neutral-750);
+  --ds-text-accent: var(--ds-focus-700);
+  --ds-border-default: var(--ds-neutral-300);
+  --ds-border-subtle: var(--ds-neutral-200);
+  --ds-border-focus: var(--ds-focus-700);
+  --ds-action-primary-default: var(--ds-brand-900);
+  --ds-action-primary-hover: var(--ds-brand-950);
+  --ds-action-secondary-default: var(--ds-neutral-100);
+  --ds-action-secondary-hover: var(--ds-pine-50);
+  --ds-action-danger-default: var(--ds-danger-700);
+  --ds-status-success-bg: var(--ds-success-100);
+  --ds-status-success-text: var(--ds-success-700);
+  --ds-status-warning-bg: var(--ds-warning-100);
+  --ds-status-warning-text: var(--ds-warning-700);
+  --ds-status-error-bg: var(--ds-danger-100);
+  --ds-status-error-text: var(--ds-danger-700);
+  --ds-icon-primary: var(--ds-brand-900);
+  --ds-icon-secondary: var(--ds-neutral-750);
+  --ds-accent-decoration: var(--ds-coral-500);
+  --ds-effect-focus: var(--ds-focus-700);
+  --ds-font-display: var(--ds-font-editorial);
+  --ds-font-body: var(--ds-font-ui);
+  --ds-font-data: var(--ds-font-mono);
+  --ds-space-component-sm: var(--ds-space-2);
+  --ds-space-component-md: var(--ds-space-4);
+  --ds-space-component-lg: var(--ds-space-6);
+  --ds-space-section-md: var(--ds-space-16);
+  --ds-space-page-md: var(--ds-gutter); /* atomic-library */
+  --ds-radius-control: var(--ds-radius-md);
+  --ds-radius-surface: var(--ds-radius-card);
+  --ds-radius-dialog: var(--ds-radius-modal);
+  --ds-radius-pill: var(--ds-radius-round);
+  --ds-effect-elevation-1: var(--ds-shadow-soft);
+  --ds-effect-elevation-2: var(--ds-shadow-elevated);
+  --ds-effect-elevation-3: var(--ds-shadow-modal);
+  --ds-motion-easing: var(--ds-ease-standard);
+  --ds-motion-micro: var(--ds-duration-instant);
+  --ds-motion-quick: var(--ds-duration-fast);
+  --ds-motion-moderate: var(--ds-duration-base); /* atomic-library */
+  --ds-motion-deliberate: var(--ds-duration-slow);
+  --ds-type-body: var(--ds-type-md);
+  --ds-type-label: var(--ds-type-sm);
+  --ds-type-headline: var(--ds-type-2xl);
+  --ds-type-hero: var(--ds-type-display);
+  --ds-type-kpi: var(--ds-type-xl);
+  --ds-type-large: var(--ds-type-lg);
+  --ds-type-caption: var(--ds-type-xs);
+  --ds-type-section-title: var(--ds-type-2xl);
+  --ds-text-on-image: var(--ds-neutral-0);
+  --ds-text-on-sidebar: var(--ds-neutral-0);
+  --ds-text-on-sidebar-muted: var(--ds-night-500);
+  --ds-text-on-danger: var(--ds-neutral-0);
+  --ds-accent-on-contrast: var(--ds-coral-200);
+  --ds-bg-sidebar-active: var(--ds-brand-800);
+  --ds-overlay-shadow-color: var(--ds-brand-950);
+  --ds-backdrop-ink: var(--ds-night-900);
+  --ds-bg-demo-dark: var(--ds-brand-900);
+  --ds-border-demo-light: var(--ds-neutral-300);
+  --ds-btn-inverse-bg: var(--ds-neutral-0);
+  --ds-btn-inverse-text: var(--ds-brand-900);
+  --ds-control-height-compact: var(--ds-control-compact);
+  --ds-space-compact: var(--ds-space-2);
+  --ds-width-reading: var(--ds-width-readable);
+  --ds-width-max: var(--ds-width-content);
+  --ds-layout-gutter: var(--ds-gutter);
+  --ds-layout-section-gap: var(--ds-section-gap);
+  --ds-control-height: var(--ds-control-comfort);
+  --ds-divider-width: var(--ds-border-thin);
+  --ds-focus-width: var(--ds-border-focus-width);
+  --ds-type-display-sm: var(--ds-base-type-display-sm);
+  --ds-type-slide-title: var(--ds-base-type-slide-title);
+  --ds-type-slide-body: var(--ds-base-type-slide-body);
+  --ds-type-slide-small: var(--ds-base-type-slide-small);
+  --ds-type-slide-label: var(--ds-base-type-slide-label);
+  --ds-width-heading: var(--ds-base-width-heading);
+  --ds-width-excerpt: var(--ds-base-width-excerpt);
+  --ds-width-slide: var(--ds-base-width-slide);
+  --ds-letter-tight-sm: var(--ds-base-letter-tight-sm);
+  --ds-letter-tight-md: var(--ds-base-letter-tight-md);
+  --ds-letter-tight-lg: var(--ds-base-letter-tight-lg);
+  --ds-letter-caption: var(--ds-base-letter-caption);
+  --ds-letter-eyebrow: var(--ds-base-letter-eyebrow);
+  --ds-letter-hero-caption: var(--ds-base-letter-hero-caption);
+  --ds-letter-small: var(--ds-base-letter-small);
+  --ds-letter-tiny: var(--ds-base-letter-tiny);
+  --ds-logo-width: var(--ds-base-logo-width);
+  --ds-logo-height: var(--ds-base-logo-height);
+  --ds-logo-crm-width: var(--ds-base-logo-crm-width);
+  --ds-header-height: var(--ds-base-header-height);
+  --ds-hero-min-height: var(--ds-base-hero-min-height);
+  --ds-hero-viewport-height: var(--ds-base-hero-viewport-height);
+  --ds-panel-min-height: var(--ds-base-panel-min-height);
+  --ds-crm-min-height: var(--ds-base-crm-min-height);
+  --ds-crm-sidebar-width: var(--ds-base-crm-sidebar-width);
+  --ds-photo-min-height: var(--ds-base-photo-min-height);
+  --ds-view-mini-height: var(--ds-base-view-mini-height);
+  --ds-pattern-visual-height: var(--ds-base-pattern-visual-height);
+  --ds-icon-small: var(--ds-base-icon-small);
+  --ds-icon-medium: var(--ds-base-icon-medium);
+  --ds-icon-large: var(--ds-base-icon-large);
+  --ds-icon-xlarge: var(--ds-base-icon-xlarge);
+  --ds-icon-section-size: var(--ds-base-icon-section-size);
+  --ds-motion-button-shift: var(--ds-button-shift);
+  --ds-slide-padding: var(--ds-base-slide-padding);
+  --ds-slide-footer-padding: var(--ds-base-slide-footer-padding);
+  --ds-focus-offset: var(--ds-focus-offset-value);
+  --ds-hero-image-position: var(--ds-base-hero-image-position);
+  --ds-effect-image-caption-shadow: var(--ds-shadow-text-on-image);
+  --ds-radius-circle: var(--ds-base-radius-circle);
+  --ds-focus-color: var(--ds-focus-700);
+  --ds-status-info-bg: var(--ds-pine-50);
+  --ds-status-info-text: var(--ds-brand-900);
+  --ds-status-neutral-bg: var(--ds-neutral-200);
+  --ds-status-neutral-text: var(--ds-brand-900);
+}
